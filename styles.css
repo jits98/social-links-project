@@ -1,0 +1,62 @@
+body {
+  background-color: hwb(0 8% 92%);
+  font-family: "Inter", sans-serif;
+}
+.container {
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 340px;
+  height: 520px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.profile-photo {
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+}
+h3 {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 0;
+}
+h6 {
+  color: hsl(75, 94%, 57%);
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+p {
+  color: hsl(0, 0%, 100%);
+  font-size: 12px;
+  margin-top: 0;
+}
+.links {
+  display: block;
+  padding: 12px;
+  width: 240px;
+  text-align: center;
+  margin-top: 12px;
+  background-color: hsl(0, 0%, 20%);
+  border: none;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+  transition: all 0.25s;
+}
+.links:hover {
+  cursor: pointer;
+  background-color: hsl(75, 94%, 57%);
+  color: hwb(0 8% 92%);
+}
+.links:active {
+  color: hwb(0 8% 92%);
+  background-color: rgba(197, 248, 42, 0.6);
+}
