@@ -8,8 +8,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 340px;
-  height: 520px;
+  width: 25%;
+  height: 70%;
   border-radius: 10px;
   position: absolute;
   top: 50%;
@@ -18,8 +18,8 @@ body {
   transform: translate(-50%, -50%);
 }
 .profile-photo {
-  height: 70px;
-  width: 70px;
+  height: 20%;
+  width: 32%;
   border-radius: 100%;
 }
 h3 {
@@ -39,7 +39,7 @@ p {
 .links {
   display: block;
   padding: 12px;
-  width: 240px;
+  width: 80%;
   text-align: center;
   margin-top: 12px;
   background-color: hsl(0, 0%, 20%);
@@ -59,4 +59,25 @@ p {
 .links:active {
   color: hwb(0 8% 92%);
   background-color: rgba(197, 248, 42, 0.6);
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 42%;
+    height: 66%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 72%;
+    height: 60%;
+  }
+}
+
+@media screen and (max-width: 386px) {
+  .container {
+    width: 72%;
+    height: 76%;
+  }
 }
